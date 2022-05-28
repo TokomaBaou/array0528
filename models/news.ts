@@ -31,6 +31,7 @@ export interface Notification {
   detailPageTitle: string;
   url: string;
   importanceKbn: string;
+  receiptDate: Date;
   readDate: Date;
 }
 
